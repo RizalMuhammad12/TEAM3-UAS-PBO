@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
                 ).show()
 
                 // Nanti arahkan ke HomeActivity
-                // startActivity(Intent(this, HomeActivity::class.java))
+                 startActivity(Intent(this, HomeActivity::class.java))
 
             } else {
 
