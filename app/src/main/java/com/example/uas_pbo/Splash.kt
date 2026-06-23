@@ -10,17 +10,15 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // Menghilangkan ActionBar secara programmatik
+        supportActionBar?.hide()
+        
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-
-            startActivity(
-                Intent(this, LoginActivity::class.java)
-            )
-
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
-
         }, 3000) // 3 detik
-
     }
 }

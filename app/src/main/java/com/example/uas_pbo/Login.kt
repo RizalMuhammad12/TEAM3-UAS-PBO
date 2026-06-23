@@ -15,6 +15,10 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // Menghilangkan ActionBar secara programmatik untuk memastikan bar UAS-PBO hilang
+        supportActionBar?.hide()
+
         setContentView(R.layout.activity_login)
 
         etEmail = findViewById(R.id.etEmail)
