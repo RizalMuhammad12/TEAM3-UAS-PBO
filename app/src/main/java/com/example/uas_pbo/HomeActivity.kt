@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "Fortuner", "2021", "83.193 KM",
                 "2.8-Liter Inline 4 DOHC 16V Twin Turbo 1GD-FTV", "Matic 6 Speed",
-                "Rp600.000.000", android.R.drawable.ic_menu_camera,
+                "Rp600.000.000", R.drawable.fortuner,
                 "Fortuner GR Sport yang telah dimodifikasi untuk meningkatkan performa dan tampilan. Menggunakan ECU Remap Stage 3, tambahan twin turbo, velg Lenso aftermarket, dan full system side exit exhaust yang menghasilkan tenaga lebih besar serta suara yang lebih agresif. Interior terawat, kaki-kaki dalam kondisi prima, dan seluruh modifikasi dilakukan secara profesional sehingga tetap nyaman digunakan untuk harian maupun perjalanan jauh."
             )
         }
@@ -34,7 +34,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "GT86", "2017", "30.251 KM",
                 "3.0-Liter Inline 6 DOHC 24V Twin Turbo 2JZ-GTE", "Matic 8 Speed",
-                "Rp1.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp1.000.000.000", R.drawable.gt86,
                 "Toyota GT86 yang telah mendapatkan swap engine 2JZ-GTE full stage sehingga menghasilkan performa yang jauh di atas spesifikasi standar. Menggunakan bodykit Karma V1 untuk memberikan tampilan yang lebih agresif dan sporty. Sistem pendukung mesin telah disesuaikan untuk menunjang tenaga besar, menjadikannya mobil yang cocok untuk penggemar performa maupun kolektor mobil modifikasi berkualitas."
             )
         }
@@ -44,7 +44,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "Urus", "2025", "2.000 KM",
                 "4.0-Liter V8 DOHC 32V Twin Turbo", "Matic 8 Speed",
-                "Rp8.240.000.000", android.R.drawable.ic_menu_camera,
+                "Rp8.240.000.000", R.drawable.urus,
                 "Lamborghini Urus Performance dengan kondisi nyaris baru dan odometer yang sangat rendah. Mesin masih original tanpa modifikasi performa sehingga keaslian kendaraan tetap terjaga. Mobil menggunakan velg aftermarket premium serta air suspension yang memberikan kenyamanan sekaligus tampilan yang lebih exclusif. Interior dan eksterior sangat terawat serta siap digunakan tanpa perlu perbaikan tambahan."
             )
         }
@@ -54,7 +54,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "Aventador SV", "2018", "240 KM",
                 "6.5-Liter V12 DOHC 48V Naturally Aspirated", "Matic 7 Speed",
-                "Rp17.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp17.000.000.000", R.drawable.aventa,
                 "Lamborghini Aventador SV dengan kondisi kolektor dan jarak tempuh yang sangat rendah. Menggunakan mesin V12 naturally aspirated yang terkenal akan suara dan performanya. Kendaraan telah dimodifikasi menggunakan velg forged premium dari MV Forged untuk meningkatkan tampilan tanpa mengurangi karakter asli mobil. Unit sangat terawat dan rutin mendapatkan perawatan berkala."
             )
         }
@@ -64,7 +64,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "911 Carrera", "1978", "900 KM",
                 "3.3-Liter Flat 6 SOHC Turbocharged", "Manual 5 Speed",
-                "Rp4.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp4.000.000.000", R.drawable.rwb,
                 "Porsche 911 Carrera klasik yang telah dibangun dengan konsep RWB oleh Akira Nakai. Menggunakan body widebody khas RWB yang menjadi ikon dunia modifikasi Porsche. Perpaduan desain klasik Porsche dengan sentuhan Jepang menjadikan kendaraan ini sangat langka dan bernilai tinggi. Cocok untuk kolektor maupun pecinta Porsche yang menginginkan unit spesial."
             )
         }
@@ -74,7 +74,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "LFA", "2010", "100 KM",
                 "4.8-Liter V10 DOHC 40V 1LR-GUE", "Matic 6 Speed",
-                "Rp15.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp15.000.000.000", R.drawable.lfa,
                 "Lexus LFA dengan kondisi sangat istimewa dan jarak tempuh yang sangat rendah. Menggunakan mesin V10 legendaris yang terkenal karena karakter suara mesinnya. Kendaraan mendapatkan sentuhan modifikasi dari Z&Z Garage dengan tetap mempertahankan identitas asli LFA. Sangat cocok sebagai koleksi karena termasuk salah satu supercar Jepang paling langka yang pernah diproduksi."
             )
         }
@@ -84,7 +84,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "Civic Mugen RR", "2010", "900 KM",
                 "2.2-Liter Inline 4 DOHC 16V K20A", "Manual 6 Speed",
-                "Rp2.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp2.000.000.000", R.drawable.civic,
                 "Honda Civic Mugen RR dengan paket Mugen original lengkap yang sangat langka. Kendaraan telah mendapatkan remap Stage 3 untuk meningkatkan performa mesin tanpa menghilangkan karakter khas Honda. Unit ini dikenal sebagai salah satu mobil paling spesial di kelasnya dan menjadi satu-satunya dengan spesifikasi serupa di kota. Kondisi kendaraan sangat terawat dan siap digunakan maupun dikoleksi."
             )
         }
@@ -94,7 +94,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "Jazz RS", "2018", "129.912 KM",
                 "1.5-Liter Inline 4 SOHC 16V VTEC L15Z5", "Matic 7 Speed",
-                "Rp429.000.000", android.R.drawable.ic_menu_camera,
+                "Rp429.000.000", R.drawable.jazz,
                 "Honda Jazz RS hasil hard modification oleh Z&Z Garage. Mendapatkan berbagai peningkatan berupa remap Stage 3, upgrade mesin, sistem exhaust performa tinggi, serta penggunaan velg dan ban aftermarket premium. Mobil memiliki tampilan sporty, performa responsif, dan tetap nyaman digunakan sebagai kendaraan harian maupun untuk menghadiri event otomotif."
             )
         }
@@ -104,7 +104,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "190E Evolution I", "1989", "12.000 KM",
                 "2.5-Liter Inline 4 DOHC 16V M102.991", "Manual 5 Speed",
-                "Rp3.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp3.000.000.000", R.drawable.evo1,
                 "Mercedes-Benz 190E Evolution I original yang memiliki sejarah sebagai mobil balap pada masanya. Merupakan salah satu model paling dicari oleh kolektor Mercedes-Benz karena jumlah produksinya yang terbatas. Kondisi kendaraan sangat baik dengan spesifikasi yang tetap mempertahankan karakter khas Evolution I. Cocok sebagai kendaraan koleksi maupun investasi jangka panjang."
             )
         }
@@ -114,7 +114,7 @@ class HomeActivity : AppCompatActivity() {
             pindahKeDetail(
                 "SLR McLaren", "2008", "1.200 KM",
                 "5.4-Liter Supercharged V8 M155", "Matic 5 Speed",
-                "Rp30.000.000.000", android.R.drawable.ic_menu_camera,
+                "Rp30.000.000.000", R.drawable.slr,
                 "Mercedes-Benz SLR McLaren dalam kondisi kolektor dengan modifikasi ringan berupa velg HRE premium dan air suspension lowered. Mesin supercharged V8 tetap mempertahankan performa dan karakter asli kendaraan. Hasil kolaborasi antara Mercedes-Benz dan McLaren ini menjadi salah satu grand tourer paling ikonik pada masanya dan sangat diminati oleh kolektor kendaraan eksotis di seluruh dunia."
             )
         }

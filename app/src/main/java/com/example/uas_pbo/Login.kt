@@ -26,8 +26,8 @@ class LoginActivity : AppCompatActivity() {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
 
-            if(email == "root" &&
-                password == "root") {
+            if(email == "buyer" &&
+                password == "buyer") {
 
                 Toast.makeText(
                     this,
