@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#F5F5F5">
 
     <LinearLayout
@@ -12,8 +14,7 @@
         android:background="#0A2A66"
         android:orientation="horizontal"
         android:padding="16dp"
-        android:gravity="center_vertical"
-        android:layout_alignParentTop="true">
+        android:gravity="center_vertical">
 
         <TextView
             android:layout_width="0dp"
@@ -34,9 +35,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/layoutHeader"
-        android:layout_above="@id/bottomNavigation"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout_height="2200dp"
         android:padding="16dp"
         android:clipToPadding="false">
 
@@ -54,8 +55,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fortuner" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -88,8 +90,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gt86" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -122,8 +125,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/urus" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -156,8 +160,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aventa" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,8 +195,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rwb" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -224,8 +230,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lfa" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -258,8 +265,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/civic" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -292,8 +300,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jazz" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -326,8 +335,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/evo1" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -360,8 +370,9 @@
                 android:layout_marginBottom="16dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/slr" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -392,10 +403,9 @@
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
         app:itemIconTint="#0A2A66"
         app:itemTextColor="#0A2A66"
         app:menu="@menu/menu_bottom_nav" />
 
-</RelativeLayout>
+</LinearLayout>
