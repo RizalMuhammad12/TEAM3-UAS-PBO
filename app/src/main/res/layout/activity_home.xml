@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0A2A66"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Katalog Mobil"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivMenuList"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            app:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutHeader"
+        android:layout_above="@id/bottomNavigation"
+        android:padding="16dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota Fortuner GR"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp600.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_fortuner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toyota GT86 Swap 2JZ"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp1.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_gt86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lamborghini Urus Performance"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp8.240.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_urus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lamborghini Aventador SV"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp17.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_aventador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Porsche 911 Carrera RWB"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp4.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_porsche"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lexus LFA"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp15.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_lfa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Honda Civic Mugen RR"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp2.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_civic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Honda Jazz RS"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp429.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_jazz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mercedes-Benz 190E Evolution I"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp3.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_merc190"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_camera" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mercedes-Benz SLR McLaren"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp30.000.000.000"
+                    android:textColor="#0A2A66"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_detail_mclaren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:backgroundTint="#0A2A66"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:itemIconTint="#0A2A66"
+        app:itemTextColor="#0A2A66"
+        app:menu="@menu/menu_bottom_nav" />
+
+</RelativeLayout>
