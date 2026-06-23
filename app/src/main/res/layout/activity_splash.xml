@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     android:gravity="center"
-    android:orientation="vertical"
-    android:background="#0A2A66">
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/showroom_mobile_logo"/>
+        android:src="@drawable/showroom_mobile_logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="SHOWROOM MOBILE"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Temukan Mobil Impian Anda"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        android:layout_marginTop="10dp"/>
+        android:textSize="14sp" />
 
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:indeterminateTint="#FFFFFF"/>
+        android:indeterminateTint="#FFFFFF" />
 
 </LinearLayout>

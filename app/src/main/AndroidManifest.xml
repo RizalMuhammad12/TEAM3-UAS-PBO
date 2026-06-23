@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UASPBO">
         <activity
-            android:name=".About"
+            android:name="com.example.showroommobile.AboutActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -23,7 +23,7 @@
             android:name=".DetailActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
