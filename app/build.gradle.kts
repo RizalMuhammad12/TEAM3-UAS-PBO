@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.uas_pbo"
-        minSdk = 35
+        minSdk = 34
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
