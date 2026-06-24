@@ -6,8 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/showroom_mobile_logo"
         android:label="Showroom Mobile"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/showroom_mobile_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.UASPBO">
 
@@ -26,6 +27,10 @@
 
         <activity
             android:name=".HomeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.showroommobile.AboutActivity"
             android:exported="false" />
 
         <activity android:name=".DetailActivity"

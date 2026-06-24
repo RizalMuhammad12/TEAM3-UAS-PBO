@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     android:background="#F5F5F5">
 
     <LinearLayout
@@ -25,12 +26,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/ivMenuList"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:src="@android:drawable/ic_menu_sort_by_size"
-            app:tint="#FFFFFF" />
+
     </LinearLayout>
 
     <ScrollView

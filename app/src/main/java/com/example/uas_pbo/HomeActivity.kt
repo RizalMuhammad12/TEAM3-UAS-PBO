@@ -124,40 +124,33 @@ class HomeActivity : AppCompatActivity() {
         //  BAGIAN 2: HEADER & BOTTOM NAVIGATION
         // ==========================================
 
-        // Setup Dropdown Menu di Header
-        val ivMenuList: ImageView = findViewById(R.id.ivMenuList)
-        ivMenuList.setOnClickListener { view ->
-            val popupMenu = PopupMenu(this, view)
-            popupMenu.menuInflater.inflate(R.menu.menu_header, popupMenu.menu)
 
-            popupMenu.setOnMenuItemClickListener { menuItem ->
-                when (menuItem.itemId) {
-                    R.id.menu_profile -> { Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show(); true }
-                    R.id.menu_setting -> { Toast.makeText(this, "Setting", Toast.LENGTH_SHORT).show(); true }
-//                    R.id.menu_about -> {
-//                        startActivity(Intent(this, AboutActivity::class.java))
-//                        true
-//                    }
-//                    R.id.menu_logout -> {
-//                        startActivity(Intent(this, LoginActivity::class.java))
-//                        finish()
-//                        true
-//                    }
-                    else -> false
-                }
-            }
-            popupMenu.show()
-        }
 
         // Setup Bottom Navigation Menu
         val bottomNavigation: BottomNavigationView = findViewById(R.id.bottomNavigation)
+        bottomNavigation.selectedItemId = R.id.nav_home
         bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> true
-//                R.id.nav_about -> {
-//                    startActivity(Intent(this, AboutActivity::class.java))
-//                    true
-//                }
+                R.id.nav_about -> {
+                    startActivity(Intent(this, com.example.showroommobile.AboutActivity::class.java))
+                    true
+                }
+                R.id.nav_logout -> {
+                    com.google.android.material.dialog.MaterialAlertDialogBuilder(this)
+                        .setTitle("Konfirmasi Logout")
+                        .setMessage("Apakah anda ingin keluar?")
+                        .setPositiveButton("Keluar") { _, _ ->
+                            startActivity(Intent(this, LoginActivity::class.java))
+                            finish()
+                        }
+                        .setNegativeButton("Batal") { dialog, _ ->
+                            dialog.dismiss()
+                            bottomNavigation.selectedItemId = R.id.nav_home
+                        }
+                        .show()
+                    true
+                }
                 else -> false
             }
         }
