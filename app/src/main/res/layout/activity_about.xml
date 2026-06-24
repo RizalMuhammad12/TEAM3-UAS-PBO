@@ -153,10 +153,11 @@
                         android:text="2. Muhammad Hasan Syaiful Rizal"
                         android:textStyle="bold"
                         android:textColor="#000000" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="C030324XXX" />
+                        android:text="C030324036" />
                         android:text="C030324036" />
                 </LinearLayout>
             </LinearLayout>
@@ -182,10 +183,11 @@
                         android:text="3. Ernando Tri Sudarmawan"
                         android:textStyle="bold"
                         android:textColor="#000000" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="C030324XXX" />
+                        android:text="C030324119" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -210,10 +212,11 @@
                         android:text="4. Akwa Jabil Nur Firdaus Z"
                         android:textStyle="bold"
                         android:textColor="#000000" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="C030324XXX" />
+                        android:text="C030324064" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -238,10 +241,11 @@
                         android:text="5. Zefanya Domenico Imanu"
                         android:textStyle="bold"
                         android:textColor="#000000" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="C030324XXX" />
+                        android:text="C030324113" />
                 </LinearLayout>
             </LinearLayout>
 
